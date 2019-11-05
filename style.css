@@ -50,6 +50,41 @@
 	padding-top: 30px;
 	padding-bottom: 30px;
 	text-align: center;
+	width:47%;
+	margin-right: 6%;
+}
+
+.category-2{
+	background-color: red;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	width:47%;
+}
+
+.navigation-bar{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 42px; 
+    position: fixed; 
+    bottom:0%;
+    width:100%; 
+    background-color: white; 
+    opacity: 1;
+}
+
+.navigation-bar-section{
+	height: 42px; 
+	text-align: center;
+}
+
+.nav-img{
+	width: 18px;
+	height: 18px;
+}
+
+.nav-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
 }
 
 /* Horizozntal scroll */
