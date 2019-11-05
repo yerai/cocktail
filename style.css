@@ -36,6 +36,22 @@
 	font-size: 14px;
 }
 
+.featured-img{
+	width: 300px;
+	height: 130px;
+}
+.featured-title{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.category-1{
+	background-color: red;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
 /* Horizozntal scroll */
 .testimonial-group > .row {
   overflow-x: auto;
