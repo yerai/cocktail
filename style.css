@@ -1,5 +1,5 @@
 .screen{
-	margin:20px;
+	margin:20px
 }
 
 .title{
@@ -52,6 +52,15 @@
 	text-align: left;
 	margin-top: -5px;
 	font-weight: 300;
+}
+
+.description-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	margin-top: -5px;
+	font-weight: 300;
+	margin-bottom: 20px;
 }
 
 .category-1{
@@ -158,6 +167,79 @@
     justify-content: center;
     vertical-align: middle;
 }
+
+.detail-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+.column-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+.detail-img{
+	width: 65px;
+	height: 65px;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.btn-secondary {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+     border-radius: 50px;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 15px/1.7 'Open Sans', sans-serif;
+     color: #333;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     cursor: pointer;
+} 
+
+.button_radio{
+	margin-top: 15px;
+}
+
 
 /* Horizozntal scroll */
 .testimonial-group > .row {
